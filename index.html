@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Divyanshi Rajput</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon"> 
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="container">
+	<section class="index clearfix">
+		<div class="image column">
+			<img src="images/image.jpg">
+			<h1> Divyanshi Rajput </h1>
+      <br>
+      <a href="https://github.com/DivyanshiRajput" class= " fa fa-github"></a>
+      <a href="https://www.facebook.com/dibbu2241/" class="fa fa-facebook" target="_blank"></a>
+      <a href="https://twitter.com/Divyanshi2241" class="fa fa-twitter" target="_blank"></a>
+      <a href="https://www.linkedin.com/in/divyanshi-rajput-3654171aa/" class="fa fa-linkedin" target="_blank"></a>
+      <a href="https://www.instagram.com/divyanshi._.rajput/" class="fa fa-instagram" target="_blank"></a>
+		</div>
+
+		<div class="links column">
+      <div class="link">
+        <a href="#about"> About </a>
+      </div>
+			<div class="link">
+        <a href="#education-skills"> Education </a>
+      </div>
+      <div class="link">
+        <a href="#education-skills"> Skills </a>
+      </div>
+      <div class="link">
+        <a href="#projects"> Projects </a>
+      </div>
+      <div class="link">
+        <a href="docs/Resume.pdf" target="_blank"> Resume </a>
+      </div>
+      <div class="link">
+        <a href="#contact"> Contact </a>
+      </div>
+		</div>
+	</section>
+
+	<section class="about clearfix" id="about">
+    <div class="paragraph hideme column">
+      <h2>Hey there! I'm Divyanshi 👋</h2>
+      <br>
+      <br>
+      <div class="text">
+	      <p> I am a sophomore at International Institute of Information Technology, Bangalore, exploring my interests in computer science and mathematics.</p>
+        <br>
+        <p>I like challenges and working on strong community projects. I spend a large part of my time exploring ideas and coming up with solutions for problems that i see.I aspire to contribute positively to the community and try and inspire my friends to do the same.
+        </p>
+        <br>
+        <p>I have a keen interest in music, and i enjoy playing the keyboard and singing, especially at karaoke nights in college.I also enjoy photography and I am always on the lookout for something to capture.
+        </p>
+      </div>
+    </div>
+
+	  <div class="image hideme column">
+      <img src="images/d.png">
+	  </div>
+
+	</section>
+
+	<section class="education-skills clearfix" id="education-skills">
+		<div class="education hideme column">
+			<h2>Education</h2>
+      <br> <br> <br> <br>
+      <dl>
+        <dt>● International Institute of Information Technolgy, Bangalore</dt>
+        <dd> 2019 - present</dd>
+        <br>
+        <dt>● Allen Career Institute, Indore</dt>
+        <dd>2017-2019</dd>
+        <br>
+        <dt>● St. Raphael's Higher Secondary School</dt>
+        <dd>2005-2017</dd>
+      </dl>
+		</div>
+		<div class="skills hideme column">
+			<h2>Skills</h2>
+      <div class="text2">
+        <ul>
+          <br>
+          <li>Python Programming</li>
+          <li>C Programming</li>
+          <li>Java</li>
+          <li>Java Script</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Git Version Control</li>
+          <li>LaTex</li>
+          <li>Verilog HDL</li>
+        </ul>
+      </div>
+		</div>
+	</section>
+
+  <section class="projects clearfix" id="projects">
+      <div class="hbar">
+        <button class="tab" onclick="openProject('project1')" onmouseover="openProject('project1')" onmouseout="openProject('project1')">Project 1</button>
+        <button class="tab" onclick="openProject('project2')" onmouseover="openProject('project2')" onmouseout="openProject('project1')">Project 2</button>
+        <button class="tab" onclick="openProject('project3')" onmouseover="openProject('project3')" onmouseout="openProject('project1')">Project 3</button>
+        <button class="tab" onclick="openProject('project4')" onmouseover="openProject('project4')" onmouseout="openProject('project1')">Project 4</button>
+      </div>
+      <div id="project1" class="tab-content hideme ">
+        <h2>Web-Based Scientific Calculator</h2>
+        <div class="project hideme column">
+          <p> Online scientific calculator provides user an option to choose the type of expression to solve.
+            There are 3 user inputs taken on the home page namely, infix, prefix and postfix. The page then redirects to the required type of calculator.
+          </p>
+          <br>
+          <p>I Used Python Flask module for the backend and the front end was made using HTML/CSS. </p>
+        </div>
+        <div class="image hideme column">
+          <br>
+          <img src="images/calculator.png">
+        </div>
+      </div>
+      <div id="project2" class="tab-content hideme " style="display:none">
+        <h2>Pillow, Tesseract and OpenCV</h2>
+        <div class="project hideme column">
+          <p> Project allows to search through the images looking for the occurrences of keywords and faces. E.g. if you search for "pizza" it will return a contact sheet of all of the faces which were located on the newspaper page which mentions "pizza".
+          </p>
+          <br>
+          <p>I used pillow, tesseract and openCV module.</p>
+        </div>
+        <div class="image hideme column">
+          <img style="padding-top: 100px;" src="images/PTOCV.png">
+        </div>
+      </div>
+      <div id="project3" class="tab-content hideme " style="display:none">
+        <h2>Giphy Search Engine</h2>
+        <div class="project hideme column">
+          <p> A GIF search engine that uses the Giphy API to search for the desired GIFs and display them.</p>
+          <br>
+          <p>It uses Javascript to manipulate the HTML DOM and display GIFs.</p>
+        </div>
+        <div class="image hideme column">
+          <img src="images/giphy.png">
+        </div>
+      </div>
+      <div id="project4" class="tab-content hideme " style="display:none">
+        <h2>Socket Programming Quiz</h2>
+        <div class="project hideme column">
+          <p> There is a host who conducts the quiz and players who provide answers. The players receive the question, think about the answer for a while and press the buzzer. There is a timer for buzzer to be presssed. Otherwise, the host moves on to the next question. The first one to press the buzzer is given a chance to provide the answer. If the answer is correct, he is given 1 point, otherwise -0.5. The game stops when any player gets 5 points and that player is declared the winner.
+          </p>
+          <br>
+          <p>Made using python3 socket programming.</p>
+        </div>
+        <div class="image hideme column">
+          <img src="images/quiz.png">
+        </div>
+      </div>
+
+  </section>
+
+	<section class="contact" id="contact" >
+		<!-- <h2>Contact</h2> -->
+    <div class="background">
+      <div class="mail column">
+        <h3>Let's Chat!</h3>
+        <a href="mailto: divyanshi2241@gmail.com">dibbu2241@gmail.com</a>
+      </div>
+      <div class="social column">
+        <h2>find me on</h2>
+        <br>
+        <br>
+        <a href="https://github.com/DivyanshiRajput" class= " fa fa-github"> GitHub</a>
+        <br>
+        <a href="https://www.facebook.com/dibbu2241/" class="fa fa-facebook" target="_blank">       Facebook</a>
+        <br>
+        <a href="https://twitter.com/Divyanshi2241" class="fa fa-twitter" target="_blank">  Twitter</a>
+        <br>
+        <a href="https://www.linkedin.com/in/divyanshi-rajput-3654171aa/" class="fa fa-linkedin" target="_blank">  LinkedIn</a>
+        <br>
+        <a href="https://www.instagram.com/divyanshi._.rajput/" class="fa fa-instagram" target="_blank">  Instagram</a>
+
+      </div>
+    </div>
+	</section>
+  </div>
+  <script>
+    function openProject(projectNo)
+    {
+      var i;
+      var x = document.getElementsByClassName("tab-content");
+      for (i = 0; i < x.length; i++)
+      {
+          x[i].style.display = "none";
+      }
+    document.getElementById(projectNo).style.display = "block";
+    }
+
+	// $(document).ready(function(){
+ //            $("body").hide().fadeIn(1000);
+ //        });
+	$(function(){  // $(document).ready shorthand
+  		$('.monster').fadeIn('slow');
+	});
+
+	$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},1000);       
+            }
+        }); 
+    });
+	});
+	// $(document).ready(function(){
+ 	// $(this).scrollTop(0);
+	// });
+	$(window).on('beforeunload', function(){
+  	$(window).scrollTop(0);
+	});
+  </script>
+</body>
+</html>
