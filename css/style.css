@@ -350,7 +350,7 @@ body {
 }
 
 .contact .background h3{
-  font-family:wfont_a39fbd_e2ce24ff584f47ad9af3f2bd4c0ab716,wf_e2ce24ff584f47ad9af3f2bd4,orig_sofia_pro_light;
+/*   font-family:wfont_a39fbd_e2ce24ff584f47ad9af3f2bd4c0ab716,wf_e2ce24ff584f47ad9af3f2bd4,orig_sofia_pro_light; */
   font-size: 54px;
   line-height: 1.3;
   font-weight: bold;
@@ -358,7 +358,7 @@ body {
 }
 
 .contact .background .mail a{
-  font-family: wfont_a39fbd_e2ce24ff584f47ad9af3f2bd4c0ab716,wf_e2ce24ff584f47ad9af3f2bd4,orig_sofia_pro_light;
+/*   font-family: wfont_a39fbd_e2ce24ff584f47ad9af3f2bd4c0ab716,wf_e2ce24ff584f47ad9af3f2bd4,orig_sofia_pro_light; */
   font-size: 30px;
   line-height: 1.3;
   color: rgb(50,50,50);
